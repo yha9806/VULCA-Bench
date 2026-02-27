@@ -1,6 +1,6 @@
 # VULCA-Bench
 
-**VULCA-Bench** is a comprehensive benchmark for evaluating Vision-Language Models (VLMs) on multi-cultural art critique tasks. It provides 7,410 artwork samples across 8 cultural traditions with expert-annotated critiques and dimensional coverage.
+**VULCA-Bench** is a comprehensive benchmark for evaluating Vision-Language Models (VLMs) on multi-cultural art critique tasks. It provides 7,408 artwork samples across 8 cultural traditions with expert-annotated critiques and dimensional coverage.
 
 📄 **Paper**: [VULCA-Bench: A Multi-Cultural Art Critique Benchmark for VLMs](https://arxiv.org/abs/2601.07986)
 
@@ -11,14 +11,14 @@
 | Culture | Samples | Description |
 |---------|---------|-------------|
 | Western | 4,041 | European/American art (Renaissance to Modern) |
-| Chinese | 2,042 | Traditional Chinese painting (ink wash, gongbi, etc.) |
+| Chinese | 2,041 | Traditional Chinese painting (ink wash, gongbi, etc.) |
 | Japanese | 401 | Ukiyo-e, Nihonga, Rinpa traditions |
 | Islamic | 205 | Persian miniatures, geometric patterns, calligraphy |
-| Mural | 201 | Cave paintings, frescoes (Dunhuang, Ajanta, etc.) |
+| Mural | 200 | Cave paintings, frescoes (Dunhuang, Ajanta, etc.) |
 | Hermitage | 196 | European masterworks from the Hermitage Museum |
 | Indian | 173 | Mughal, Rajput, Pahari miniatures |
 | Korean | 151 | Minhwa, literati painting, Joseon court art |
-| **Total** | **7,410** | |
+| **Total** | **7,408** | |
 
 ## 5-Layer Cultural Understanding Framework (L1-L5)
 
@@ -127,7 +127,7 @@ print(f"Overall: {scores['overall_score']}")
 ```
 VULCA-Bench/
 ├── data/
-│   ├── vulca_bench.jsonl          # Full dataset (7,410 samples)
+│   ├── vulca_bench.jsonl          # Full dataset (7,408 samples)
 │   └── culture_subsets/           # Per-culture splits
 │       ├── chinese.jsonl
 │       ├── western.jsonl
@@ -155,7 +155,7 @@ VULCA-Bench/
 
 ## License
 
-This dataset is released under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/).
+This dataset is released under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 ## Acknowledgments
 

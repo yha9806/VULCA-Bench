@@ -114,11 +114,11 @@ print(f"Overall: {scores['overall_score']}")
 | Culture | Prefix | Total Dims | 70% Threshold |
 |---------|--------|------------|---------------|
 | Chinese | CN_ | 30 | ≥21 |
-| Western | WE_ | 25 | ≥18 |
-| Japanese | JP_ | 27 | ≥19 |
-| Korean | KR_ | 25 | ≥18 |
-| Islamic | IS_ | 28 | ≥20 |
-| Indian | IN_ | 30 | ≥21 |
+| Western | WE_ | 27 | ≥19 |
+| Japanese | JP_ | 28 | ≥20 |
+| Korean | KR_ | 26 | ≥18 |
+| Islamic | IS_ | 32 | ≥22 |
+| Indian | IN_ | 33 | ≥23 |
 | Hermitage | WS_ | 30 | ≥21 |
 | Mural | MU_ | 30 | ≥21 |
 

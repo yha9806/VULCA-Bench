@@ -4,7 +4,7 @@
 
 📄 **Paper**: [VULCA-Bench: A Multi-Cultural Art Critique Benchmark for VLMs](https://arxiv.org/abs/2601.07986)
 
-🤗 **Dataset**: [HuggingFace Datasets](https://huggingface.co/datasets/yhryzy/vulca-bench)
+🤗 **Dataset**: [HuggingFace Datasets](https://huggingface.co/datasets/harryHURRY/vulca-bench)
 
 ## Dataset Overview
 
@@ -114,7 +114,7 @@ print(f"Overall: {scores['overall_score']}")
 | Culture | Prefix | Total Dims | 70% Threshold |
 |---------|--------|------------|---------------|
 | Chinese | CN_ | 30 | ≥21 |
-| Western | WE_ | 22 | ≥15 |
+| Western | WE_ | 25 | ≥18 |
 | Japanese | JP_ | 27 | ≥19 |
 | Korean | KR_ | 25 | ≥18 |
 | Islamic | IS_ | 28 | ≥20 |
@@ -145,11 +145,11 @@ VULCA-Bench/
 ## Citation
 
 ```bibtex
-@article{yu2025vulcabench,
+@article{yu2026vulcabench,
   title={VULCA-Bench: A Multi-Cultural Art Critique Benchmark for Vision-Language Models},
-  author={Yu, Haorui and others},
+  author={Yu, Haorui and Yang, Diji and He, Hang and Zhang, Fengrui and Yi, Qiufeng},
   journal={arXiv preprint arXiv:2601.07986},
-  year={2025}
+  year={2026}
 }
 ```
 

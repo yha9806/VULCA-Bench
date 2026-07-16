@@ -1,5 +1,20 @@
 # VULCA-Bench
 
+> [!IMPORTANT]
+> **This repository is a historical snapshot.** Active development and the
+> canonical public release have moved to
+> [vulca-org/vulca-cultural-visual-benchmark](https://github.com/vulca-org/vulca-cultural-visual-benchmark).
+> Use the organization repository for current data, validation, issues, and
+> contributions.
+>
+> The canonical metadata-first v2.1 release contains 7,236 records and
+> redistributes no artwork image files. The files retained here contain 7,410
+> paper-era records, while the legacy documentation below reports 7,408; neither
+> count describes v2.1. See the canonical
+> [release reconciliation](https://github.com/vulca-org/vulca-cultural-visual-benchmark/blob/main/RELEASES.md)
+> and [image-rights boundary](https://github.com/vulca-org/vulca-cultural-visual-benchmark/blob/main/IMAGE_RIGHTS.md)
+> before using the benchmark.
+
 **VULCA-Bench** is a comprehensive benchmark for evaluating Vision-Language Models (VLMs) on multi-cultural art critique tasks. It provides 7,408 artwork samples across 8 cultural traditions with expert-annotated critiques and dimensional coverage.
 
 📄 **Paper**: [VULCA-Bench: A Multi-Cultural Art Critique Benchmark for VLMs](https://arxiv.org/abs/2601.07986)

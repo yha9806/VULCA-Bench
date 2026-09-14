@@ -15,7 +15,7 @@
 > and [image-rights boundary](https://github.com/vulca-org/vulca-cultural-visual-benchmark/blob/main/IMAGE_RIGHTS.md)
 > before using the benchmark.
 
-**VULCA-Bench** is a comprehensive benchmark for evaluating Vision-Language Models (VLMs) on multi-cultural art critique tasks. It provides 7,408 artwork samples across 8 cultural traditions with expert-annotated critiques and dimensional coverage.
+**VULCA-Bench** is a comprehensive benchmark for evaluating Vision-Language Models (VLMs) on multi-cultural art critique tasks. It provides 7,236 canonical records across 8 cultural traditions with model-generated critiques (643 are explicit GPT-4o regenerations; the remainder carry the generation prompt's length signature — see the v4 correction of arXiv:2601.07986; no human annotation was performed) and dimensional coverage.
 
 📄 **Paper**: [VULCA-Bench: A Multi-Cultural Art Critique Benchmark for VLMs](https://arxiv.org/abs/2601.07986)
 
@@ -100,7 +100,7 @@ Each sample in `vulca_bench.jsonl`:
 ## Evaluation Metrics
 
 ### DCR (Dimension Coverage Rate)
-Measures how many expert-annotated dimensions are covered by the VLM's critique.
+Measures how many codebook dimensions (defined from published critical writing; not human-annotated per item) are covered by the VLM's critique.
 
 ```python
 from evaluation.calculate_dcr import calculate_dcr
